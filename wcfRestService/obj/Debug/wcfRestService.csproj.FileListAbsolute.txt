@@ -1,0 +1,5 @@
+D:\WebApplication1\wcfRestService\bin\wcfRestService.dll
+D:\WebApplication1\wcfRestService\bin\wcfRestService.pdb
+D:\WebApplication1\wcfRestService\obj\Debug\wcfRestService.csprojResolveAssemblyReference.cache
+D:\WebApplication1\wcfRestService\obj\Debug\wcfRestService.dll
+D:\WebApplication1\wcfRestService\obj\Debug\wcfRestService.pdb
