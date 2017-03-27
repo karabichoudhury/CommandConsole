@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html ng-app="consoleApp" ng-controller="consoleCtrl" ng-keyup="keyup($event)">
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-<script src="console.js"></script>
-<body>
+<head>
+	<link href="app.css" rel="stylesheet" />
+    <link href="webcli.css" rel="stylesheet" />
 
-<div ng-show="show">
-    <div>WebCLI version 0.0.1</div>
-	</br>
-	<div id="divOutput"></div>
-	<input id="txtInput" ng-model="command">
-</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="console.js"></script>
+
+</head>
+<body>
+	<h1>Dev Console Demo!</h1>
+	<input  />
+	<div ng-show="show" class="webcli">
+    	<div>WebCLI version 0.0.1</div>
+		</br>
+		<div id="divOutput" class="webcli-output"></div>
+		<input id="txtInput" ng-model="command" class="webcli-input">
+	</div>
 
 </body>
 </html>
