@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app="consoleApp" ng-controller="consoleCtrl" ng-keyup="keyup($event)">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="console.js"></script>
+<body>
+
+<div ng-show="show">
+    <div>WebCLI version 0.0.1</div>
+	</br>
+	<div id="divOutput"></div>
+	<input id="txtInput" ng-model="command">
+</div>
+
+</body>
+</html>
